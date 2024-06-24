@@ -1,0 +1,37 @@
+
+header nav ul li a:hover{
+    color: white;
+    border-top: 1px solid #FFA155;
+}
+
+#menu{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    #menu{
+        display: block;
+        font-size: 1.5rem;
+    }
+    #list{
+        display: block;
+        background-color: aliceblue;
+        padding: 1rem 1.5rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateX(-500px);
+    }
+    #list a:hover{
+        color: black;
+    }
+    .open{
+        transform: translateX(0);
+        
+    }
+
+    .container{
+        width: 90%;
+        padding: 10px;
+    }
+}
