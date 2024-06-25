@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -6,6 +6,562 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: #232536;
+}
+
+header .container .header_content {
+    height: 90vh;
+}
+
+header .container .header_content .title button {
+    transition-duration: 0.3s;
+    padding: 20px 50px;
+    background-color: rgba(68, 76, 252, 1);
+}
+
+header .container .header_content .title button:hover {
+    text-shadow: 0px 0px 5px;
+    box-shadow: 0px 0px 7px;
+    background-color: rgba(68, 76, 252, 0.5);
+}
+
+header .container .header_content .title img {
+    position: absolute;
+    top: 41.1rem;
+}
+
+header .container .partners img {
+    position: relative;
+    bottom: 5rem;
+}
+
+main .expertise {
+    background-color: rgba(236, 248, 249, 1);
+    height: 100vh;
+}
+
+main .expertise .container .items .item_1 {
+    transition-duration: 0.4s;
+    padding: 50px;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+main .expertise .container .items .item_2 {
+    transition-duration: 0.4s;
+    padding: 50px;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+main .expertise .container .items .item_3 {
+    transition-duration: 0.4s;
+    padding: 50px;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+main .expertise .container .items .item_1:hover {
+    background: rgba(255, 211, 175, 0.4);
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .expertise .container .items .item_2:hover {
+    background: rgba(255, 211, 175, 0.4);
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .expertise .container .items .item_3:hover {
+    background: rgba(255, 211, 175, 0.4);
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .expertise .container .items .item_1 .item_1_content {
+    margin-left: 1.5rem;
+}
+
+main .expertise .container .items .item_2 .item_2_content {
+    margin-left: 1.5rem;
+}
+
+main .expertise .container .items .item_3 .item_3_content {
+    margin-left: 1.5rem;
+}
+
+main .services {
+    background-color: rgba(255, 230, 210, 1);
+}
+
+main .services .container .content button {
+    transition-duration: 0.4s;
+    padding: 20px 50px;
+    background-color: rgba(68, 76, 252, 1);
+}
+
+main .services .container .content button:hover {
+    text-shadow: 0px 0px 5px;
+    box-shadow: 0px 0px 7px #0000ff;
+    background-color: rgba(68, 76, 252, 1);
+}
+
+main .services .container .content img {
+    position: relative;
+    top: 1.8rem;
+}
+
+main .services .container .flex .service_1 {
+    transition-duration: 0.4s;
+    padding: 25px;
+    background-color: #ffffffff;
+}
+
+main .services .container .flex .service_2 {
+    transition-duration: 0.4s;
+    padding: 25px;
+    background-color: #ffffffff;
+}
+
+main .services .container .flex .service_3 {
+    transition-duration: 0.4s;
+    padding: 25px;
+    background-color: #ffffffff;
+}
+
+main .services .container .flex .service_1:hover {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .services .container .flex .service_2:hover {
+
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .services .container .flex .service_3:hover {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .services .container .flex .service_1 button {
+    transition-duration: 0.3s;
+    padding: 15px 40px;
+}
+
+main .services .container .flex .service_1 button:hover {
+    color: #ffffffff;
+    border-radius: 4px;
+    background-color: rgba(68, 76, 252, 1);
+}
+
+main .services .container .flex .service_2 button {
+    transition-duration: 0.3s;
+    padding: 15px 40px;
+}
+
+main .services .container .flex .service_2 button:hover {
+    color: #ffffffff;
+    border-radius: 4px;
+    background-color: rgba(68, 76, 252, 1);
+}
+
+main .services .container .flex .service_3 button {
+    transition-duration: 0.3s;
+    padding: 15px 40px;
+}
+
+main .services .container .flex .service_3 button:hover {
+    color: #ffffffff;
+    border-radius: 4px;
+    background-color: rgba(68, 76, 252, 1);
+}
+
+main .process .container .items .flex .item_1 {
+    transition-duration: 0.4s;
+    padding: 30px;
+    border: 2px solid #c8c8c8;
+}
+
+main .process .container .items .flex .item_1:hover {
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .process .container .items .flex .item_2 {
+    transition-duration: 0.4s;
+    padding: 30px;
+    border: 2px solid #c8c8c8;
+}
+
+main .process .container .items .flex .item_2:hover {
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .process .container .items .flex .item_3 {
+    transition-duration: 0.4s;
+    padding: 30px;
+    border: 2px solid #c8c8c8;
+}
+
+main .process .container .items .flex .item_3:hover {
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .process .container .items .flex .item_4 {
+    transition-duration: 0.4s;
+    padding: 30px;
+    border: 2px solid #c8c8c8;
+}
+
+main .process .container .items .flex .item_4:hover {
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .process .container .items .flex .item_5 {
+    transition-duration: 0.4s;
+    padding: 30px;
+    border: 2px solid #c8c8c8;
+}
+
+main .process .container .items .flex .item_5:hover {
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .process .container .items .flex .item_6 {
+    transition-duration: 0.4s;
+    padding: 30px;
+    border: 2px solid #c8c8c8;
+}
+
+main .process .container .items .flex .item_6:hover {
+    box-shadow: 0px 0px 10px #808080;
+}
+
+main .process .container .items .flex .item_1 .item_1_content {
+    margin-left: 1rem;
+}
+
+main .process .container .items .flex .item_2 .item_2_content {
+    margin-left: 1rem;
+}
+
+main .process .container .items .flex .item_3 .item_3_content {
+    margin-left: 1rem;
+}
+
+main .process .container .items .flex .item_4 .item_4_content {
+    margin-left: 1rem;
+}
+
+main .process .container .items .flex .item_5 .item_5_content {
+    margin-left: 1rem;
+}
+
+main .process .container .items .flex .item_6 .item_6_content {
+    margin-left: 1rem;
+}
+
+footer {
+    height: 65vh;
+}
+
+footer .container .flex .footer_nav .nav_3 .contact_us {
+    position: relative;
+    top: 7rem;
+}
+
+footer .container .flex .footer_nav .nav_3 .contact_us img {
+    margin-right: 1rem;
+}
+
+.bedrock {
+    height: 10vh;
+    background-color: rgba(255, 230, 210, 1);
+}
+
+.bedrock .container {
+    height: 10vh;
+}
+
+@media (max-width: 800px) {
+    /* Media for Header started  */
+
+    header .container .header_content .title h1 {
+        margin-top: 2rem;
+        width: 400px;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    header .container .header_content .title p {
+        /* margin-top: 2rem; */
+        width: 400px;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    header .container .header_content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    header .container .header_content .title button {
+        padding: 20px 120px;
+        text-align: center;
+    }
+
+    img:nth-child(2) {
+        display: none;
+    }
+
+    header .container .header_content .title img {
+        position: absolute;
+        top: 30.9rem;
+    }
+
+    header .container .partners {
+        overflow-y: hidden;
+    }
+
+    header .container .partners img {
+        position: relative;
+        top: 5rem;
+    }
+
+    /* Media for Header ended */
+
+    /* Media for Main Started */
+
+    main .about_us .container .title {
+        flex-direction: column;
+    }
+
+    main .about_us .container .title h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-left: 6rem;
+    }
+
+    main .about_us .container .title h1 {
+        width: 600px;
+        position: relative;
+        left: 3.5rem;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 1.5rem;
+    }
+
+    main .about_us .container .title h3 {
+        width: 500px;
+        position: relative;
+        left: 6rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    main .about_us .container .title p {
+        width: 500px;
+        position: relative;
+        left: 6rem;
+        text-align: justify;
+        margin-bottom: 1rem;
+    }
+
+    main .about_us .container img {
+        display: block;
+    }
+
+    main .about_us .container .indicator {
+        flex-direction: column;
+    }
+
+    main .about_us .container .indicator .flex {
+        gap: 5rem;
+        position: relative;
+        left: 2rem;
+        margin-bottom: 3.5rem;
+    }
+
+    main .about_us .container .indicator .read-more {
+        position: relative;
+        left: 17.5rem;
+    }
+
+    main .expertise .container {
+        flex-direction: column;
+    }
+
+    main .expertise {
+        background-color: rgba(236, 248, 249, 1);
+        height: 100vh;
+    }
+
+    main .expertise .container .content h2 {
+        font-size: 2rem;
+        position: relative;
+        left: 12rem;
+    }
+
+    main .expertise .container .content h1 {
+        width: 600px;
+        font-size: 3rem;
+        position: relative;
+        left: 1.5rem;
+    }
+
+    main .expertise .container .content p {
+        width: 600px;
+        font-size: 1.5rem;
+        position: relative;
+        left: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    main .expertise .container .items {
+        overflow: scroll;
+    }
+
+    main .services .container .content {
+        margin-top: 20rem;
+    }
+
+    main .services .container .content h2 {
+        text-align: center;
+    }
+
+    main .services .container .content h1 {
+        width: 500px;
+        text-align: center;
+        font-size: 2rem;
+        position: relative;
+        left: 7rem;
+    }
+
+    main .services .container .content img {
+        display: none;
+    }
+
+    main .services .container .content button {
+        position: relative;
+        left: 10rem;
+        padding: 20px 100px;
+    }
+
+    main .services {
+        height: 160vh;
+    }
+
+    main .services .container {
+        height: 130vh;
+        align-items: center;
+    }
+
+    main .services .container .all-services {
+        overflow: scroll;
+        flex-direction: column;
+    }
+
+    main .services .container .flex .service_1 {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    main .services .container .flex .service_2 {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    main .services .container .flex .service_3 {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    main .process .container .content h2 {
+        text-align: center;
+    }
+
+    main .process .container .content h1 {
+        position: relative;
+        left: 3rem;
+        width: 600px;
+        text-align: center;
+    }
+
+    main .process .container .content p {
+        position: relative;
+        left: 3rem;
+        width: 600px;
+        text-align: center;
+    }
+
+    main .process .container .items .flex {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main .process .container .items .flex .item_1 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    main .process .container .items .flex .item_2 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    main .process .container .items .flex .item_3 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    main .process .container .items .flex .item_4 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    main .process .container .items .flex .item_5 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    main .process .container .items .flex .item_6 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    main .process .container .items .flex .item_1 .item_1_content p {
+        position: relative;
+        left: 4rem;
+    }
+
+    main .process .container .items .flex .item_2 .item_2_content p {
+        position: relative;
+        left: 4rem;
+    }
+
+    main .process .container .items .flex .item_3 .item_3_content p {
+        position: relative;
+        left: 4rem;
+    }
+
+    main .process .container .items .flex .item_4 .item_4_content p {
+        position: relative;
+        left: 4rem;
+    }
+
+    main .process .container .items .flex .item_5 .item_5_content p {
+        position: relative;
+        left: 4rem;
+    }
+
+    main .process .container .items .flex .item_6 .item_6_content p {
+        position: relative;
+        left: 4rem;
+    }
+
+    footer .container .flex .content {
+        display: none;
+    }
+
+    /* Media for Main Ended */
 }
