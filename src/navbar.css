@@ -9,6 +9,9 @@ header nav ul li a:hover {
 #menu {
     display: none;
 }
+nav{
+    background-color: #232536;
+}
 
 @media screen and (max-width:800px) {
     #menu {
@@ -18,12 +21,15 @@ header nav ul li a:hover {
 
     #list {
         display: block;
+    #list{
         background-color: aliceblue;
+        display: block;
         padding: 1rem 1.5rem;
         position: absolute;
         left: 0;
         top: 0;
-        transform: translateX(-500px);
+        transform: translateX(10px);
+        
     }
 
     #list a:hover {
@@ -33,6 +39,7 @@ header nav ul li a:hover {
     .open {
         transform: translateX(0);
 
+        background-color: red;
     }
 
     .container {
