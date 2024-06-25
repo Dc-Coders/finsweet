@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #232536;
+}
+::selection{
+  color: rgba(240, 248, 255, 0);
+}
+nav {
+  padding: 30px 100px;
+  margin-bottom: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.careertop {
+  width: 80%;
+  height: 80vh;
+  margin-top: 100px;
+  margin: auto;
+}
+
+.careertop div {
+  width: 100%;
+  height: 70vh;
+}
+.careertop div h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.careertop div h2 {
+  font-size: 200px;
+  font-weight: 700;
+  text-align: center;
+  background-image: url(./img/career.png);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.careertop div h5 {
+  font-size: 15px;
+  margin: auto;
+  text-align: center;
+  width: 40%;
+}
+
+.careerdiv {
+  flex-wrap: wrap;
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  background-color: #ecf8f9;
+}
+
+.careerdiv div {
+  width: 27%;
+  height: 25vh;
+  background-color: #ffffff;
+}
+
+.careerdiv div button {
+  color: #5d5fef;
+}
+
+.aboutsection {
+  width: 100%;
+  height: 120vh;
+  background-color: #fafafc;
+}
+
+.carts {
+  width: 90%;
+  height: 70vh;
+}
+
+.cart {
+  width: 30%;
+  background-color: #ffffff;
+  height: 30vh;
+}
+
+.cart img {
+  width: 20%;
+}
+.contactsection {
+  width: 90%;
+  margin-top: 100px;
+  margin: auto;
+  height: 37vh;
+  background-color: #666dff;
+}
+
+.contactsection input {
+  padding: 13px 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsection input {
+  padding: 30px 150px;
+}
+
+footer {
+  height: 65vh;
+  margin-top: 100px;
+ }
+ footer .container .flex .footer_nav .nav_3 .contact_us {
+     position: relative;
+     top: 7rem;
+ }
+ 
+ footer .container .flex .footer_nav .nav_3 .contact_us img {
+     margin-right: 1rem;
+ }
+ 
+ .bedrock {
+     height: 10vh;
+     background-color: rgba(255, 230, 210, 1);
+ }
+ 
+ .bedrock .container {
+     height: 10vh;
+ }
+ footer .container .flex .content {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .careertop {
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    margin: auto;
+  }
+
+  .careertop div {
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+  }
+  .careertop div h1 {
+    font-size: 10px;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 50%;
+  }
+
+  .careertop div h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #2f8d46;
+  }
+
+  .careertop div h5 {
+    font-size: 10px;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+  }
+  .careertop div h4 {
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+  }
+
+  .careerdiv {
+    width: 90%;
+    height: 130vh;
+    margin: auto;
+    background-color: #ecf8f9;
+  }
+
+  .careerdiv div {
+    width: 27%;
+    height: 30vh;
+    background-color: #ffffff;
+  }
+  .careerdiv div h1 {
+    font-size: 18px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .careerdiv div h2 {
+    font-size: 10px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .careerdiv div button {
+    padding: -10px -5px;
+  }
+  .contactsection {
+    width: 90%;
+    margin: auto;
+    height: 37vh;
+    background-color: #666dff;
+  }
+  
+  .contactsection input {
+    padding: 13px 50px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .careerdiv div {
+    height: 30vh;
+  }
+  .cart h5 {
+    font-size: 13px;
+  }
+  .cart h2 {
+    font-size: 17px;
+  }
+  .contactsection {
+    flex-direction: column;
+    height: 37vh;
+    background-color: #666dff;
+  }
+
+  .contactsection div {
+    flex-direction: column;
+    height: 37vh;
+    justify-content: center;
+    background-color: #666dff;
+  }
+  .contactsection div img:nth-child(2) {
+    display: none;
+  }
+  .contactsection input {
+    margin-left: 50%;
+    padding: 30px 30px;
+  }
+
+  .contactsection h3 {
+    font-size: 15px;
+  }
+  .contactsection h1 {
+    font-size: 20px;
+  }
+    footer{
+      overflow-x: hidden;
+    }
+  
+}
