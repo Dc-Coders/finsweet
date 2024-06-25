@@ -14,20 +14,21 @@ header nav ul li a:hover{
         font-size: 1.5rem;
     }
     #list{
-        display: block;
         background-color: aliceblue;
+        display: block;
         padding: 1rem 1.5rem;
         position: absolute;
         left: 0;
         top: 0;
-        transform: translateX(-500px);
+        transform: translateX(10px);
+        
     }
     #list a:hover{
         color: black;
     }
     .open{
         transform: translateX(0);
-        
+        background-color: red;
     }
 
     .container{
