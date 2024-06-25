@@ -7,6 +7,9 @@ header nav ul li a:hover{
 #menu{
     display: none;
 }
+nav{
+    background-color: #232536;
+}
 
 @media screen and (max-width:800px) {
     #menu{
