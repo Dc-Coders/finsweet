@@ -1,19 +1,22 @@
+header nav ul li a {}
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: white;
-    border-top: 1px solid #FFA155;
+    border-top: 3px solid #FFA155;
+
 }
 
-#menu{
+#menu {
     display: none;
 }
 
 @media screen and (max-width:800px) {
-    #menu{
+    #menu {
         display: block;
         font-size: 1.5rem;
     }
-    #list{
+
+    #list {
         display: block;
         background-color: aliceblue;
         padding: 1rem 1.5rem;
@@ -22,15 +25,17 @@ header nav ul li a:hover{
         top: 0;
         transform: translateX(-500px);
     }
-    #list a:hover{
+
+    #list a:hover {
         color: black;
     }
-    .open{
+
+    .open {
         transform: translateX(0);
-        
+
     }
 
-    .container{
+    .container {
         width: 90%;
         padding: 10px;
     }
